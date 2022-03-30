@@ -6,8 +6,7 @@ namespace SecondApplicationConsoleApp1
     {
         static void Main(string[] args)
         {
-            string myName;
-            myName = "Alexander";
+            string myName = "Alexander";
             Console.WriteLine(myName);
             Console.ReadKey();
         }
