@@ -1,14 +1,18 @@
 ﻿using System;
-
-namespace SecondApplicationConsoleApp1
+class MainClass
 {
-    class Program
+    public static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            string myName = "Alexander";
-            Console.WriteLine(myName);
-            Console.ReadKey();
-        }
+
+        string MyName = "Jane";
+        byte MyAge = 27;
+        bool HaveIApet = true;
+        double MyShoeSize = 37.5;
+
+        Console.WriteLine("My name is " + MyName);
+        Console.WriteLine("MyAge " + MyAge);
+        Console.WriteLine("Do I have a pet? " + HaveIApet);
+        Console.WriteLine("My shoe size is " + MyShoeSize);
+
     }
 }
