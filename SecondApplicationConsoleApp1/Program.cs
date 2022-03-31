@@ -33,6 +33,13 @@ class MainClass
         var weight = 50;
         Console.WriteLine("Возраст {0} \n Вес {1}", age, weight);
 
+        string CompName = "Computer";
+        Console.WriteLine("Привет, человек");
+        Console.WriteLine("Меня зовут {0}", CompName);
+        Console.Write("А как тебя зовут? ");
+        string YourName = Console.ReadLine();
+        Console.Write("Рад встрече, {0} ", YourName);
+
         Console.ReadKey();
     }
 }
