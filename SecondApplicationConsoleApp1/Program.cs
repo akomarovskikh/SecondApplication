@@ -40,6 +40,9 @@ class MainClass
         string YourName = Console.ReadLine();
         Console.Write("Рад встрече, {0} ", YourName);
 
+        double result = 10 % 3;
+        Console.WriteLine("{0}", +result);
+
         Console.ReadKey();
     }
 }
