@@ -43,6 +43,16 @@ class MainClass
         double result = 10 % 3;
         Console.WriteLine("{0}", +result);
 
+        Console.Write("Enter your name:");
+        string myName = Console.ReadLine();
+        Console.Write("Enter your age:");
+        byte myAge= checked((byte)int.Parse(Console.ReadLine()));
+        Console.WriteLine("Your name is {0} and age is {1}", myName, myAge);
+        Console.Write("Enter your birthdate:");
+        string myBirthday = Console.ReadLine();
+        Console.Write($"Your birtdate is {myBirthday}");
+        Console.ReadKey();
+
         Console.ReadKey();
     }
 }
